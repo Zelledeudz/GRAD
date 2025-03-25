@@ -4,6 +4,8 @@
 
 Ce projet a été développé lors de ma première année de BTS Services Informatiques aux Organisations (SIO), avec pour objectif de créer une application web complète de gestion et de vente de terrasses.
 
+![Description of image](./GRAD.png)
+
 ### 🚀 Technologies Utilisées
 
 - **Frontend**
