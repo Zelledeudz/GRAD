@@ -1,0 +1,203 @@
+li{
+    display : inline;
+}
+#logo_accueil{
+    width: 5%;
+    height: auto;
+
+
+}
+#bouton_accueil{
+    position: absolute;
+    right: 30%;
+    top: 2%;
+    border: white;
+    background-color: white;
+    font-size: large;
+}
+#bouton_accueil:hover{
+    background-color: #91baee;
+}
+#bouton_accueil:visited{
+    color:black
+
+}
+
+#bouton_prestations{
+    position: absolute;
+    right: 22.5%;
+    top: 2%;
+    border: white;
+    background-color: white;
+    font-size: large;
+}
+#bouton_prestations:hover{
+    background-color:#91baee;
+}
+
+#bouton_produit{
+    position: absolute;
+    right: 16.5%;
+    top: 2%;
+    border: white;
+    background-color: white;
+    font-size: large;
+}
+#bouton_produit:hover{
+    background-color: #91baee;
+}
+
+
+#bouton_realisation {
+    position: absolute;
+    right: 9%;
+    top: 2%;
+    border: white;
+    background-color: white;
+    font-size: large;
+}
+#bouton_realisation:hover{
+    background-color: #91baee;
+
+}
+
+#bouton_contact {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    border: white;
+    background-color: white;
+    font-size: large;
+}
+#bouton_contact:hover{
+    background-color: #91baee;
+}
+#bouton_contact:visited{
+    color:black
+}
+
+#liste_accueil{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+#titre_accueil {
+    width: 60%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#actu1 {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+#actu2 {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+#boutoncontact {
+    background-color: yellow;
+    border-radius: 10px;
+    right: 5%;
+    margin-left: 75%;
+
+}
+
+#texte_bas {
+    background-color:#67a759;
+
+}
+
+#paragraphe {
+    font-size: large;
+    margin-top: 10%;
+}
+
+#texte_basJ {
+    background-color: #ffd774;
+}
+
+#actus{
+    width: 60%;
+}
+
+#actu1txt {
+    border: thin solid black;
+    margin-bottom:0.2%;
+    font-size :small;
+    
+}
+
+#actu2txt {
+    border: thin solid black;
+    font-size :small;
+}
+
+#lestextes {
+    display: flex;
+}
+
+#titre{
+    position:absolute;
+    font-size:xx-large;
+    color: white;
+    left: 37%;
+    top: 15%
+}
+#formulaire input{
+    margin-bottom : 20px;
+    border : 1px solid grey;
+        
+}
+
+.wrapper{
+    position:relative;
+    top: 50%;
+    left: 30%;
+}
+
+#nom{
+    width: 15%; 
+    margin-left: 9%;
+}
+
+#prenom{
+    width: 15%; 
+    margin-left: 7.6%;
+}
+
+#codepostal{
+    width: 15%; 
+    margin-left:7%;
+}
+
+#adresse{
+    width: 15%; 
+    margin-left: 5%;
+}
+
+#email{
+    width: 15%; 
+    margin-left: 8.5%;
+}
+
+#tel{
+    width: 15%; 
+    margin-left: 10%;
+}
+
+#message{
+    width: 15%;
+    margin-left: 6%;
+
+
+}
+a:visited {
+    color: red;
+    text-decoration: none;
+}
