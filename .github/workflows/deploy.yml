@@ -1,4 +1,4 @@
-name: Deploy PHP Site to Pages
+name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
@@ -8,10 +8,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -29,7 +25,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .  # Déploie tout le dossier du projet
+          path: '.'  # Déploie tout le dossier du projet
 
       - name: Deploy to GitHub Pages
         id: deployment
